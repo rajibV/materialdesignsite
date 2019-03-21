@@ -1,0 +1,106 @@
+.about-area, .features-area, .message-area {
+  height: 600px;
+  width: 100%;
+  padding-top: 30px;
+  color: #fff; }
+
+.feature-text-style {
+  height: 350px;
+  width: 100%;
+  background: #727272;
+  padding: 20px 20px 20px 20px;
+  border-radius: 2%; }
+
+.about-area i {
+  font-size: 40px;
+  color: #CFB53B; }
+
+/*ul{
+    list-style: none;
+    float: right;
+    width: 100%;
+    height: $height;
+    background: $bg-gray;
+    
+    
+    li{
+        text-decoration: none;
+        display: inline-block;
+        padding-top: $pading;
+        float: right;
+        padding-left: 30px;
+        position: relative;
+        a{
+            font-size: $font-size;
+            padding: $menu-padding;
+            text-transform:$text-transform-uppercase;
+            color: $font-white;
+            font-weight: $font-weight-bold;
+            display: block;
+            &:hover{
+                background:$bg-black;
+                color: $font-white;
+                height: 100%;
+                width: 100%;
+            }
+            li:hover ul.submenu {
+            visibility: visible;
+            opacity: 1;
+            top: 100%;
+            }
+        }
+       
+    }
+   
+    ul.submenu{
+        position: absolute;
+        height: 300px;
+        top: 140%;
+        width: 250px;
+        text-align: right;
+        left: 0%;
+        opacity: 0;
+        visibility: hidden;
+        li{
+            display: block;
+        }
+    }
+     
+}*/
+/*.menu-area{
+    height: 60px;
+    width: 100%;
+}*/
+.nav-wrapper {
+  background: linear-gradient(#6d6464, #93938e, #67676d); }
+
+/*.slider{
+    @extend %sectionCommon;
+    background-color: none;
+}*/
+.about-area {
+  background: linear-gradient(#606060, #171515, #555151);
+  padding-top: 0px; }
+
+.about-area h2 {
+  text-transform: uppercase; }
+
+.features-area {
+  background: linear-gradient(#6d6464, #93938e, #67676d); }
+
+.modal-content {
+  color: #000; }
+
+.message-area {
+  background: linear-gradient(#1f4037, #8caa9c); }
+
+.message-area p {
+  color: #dbd0d0;
+  font-weight: 600; }
+
+.footer-area {
+  height: 500px;
+  width: 100%;
+  background: gray; }
+
+/*# sourceMappingURL=style.css.map */
